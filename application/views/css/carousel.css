@@ -1,0 +1,25 @@
+#carousel .carousel-item{
+    height: fit-content;
+}
+
+#carousel img{
+    max-height: 93vh !important;
+}
+
+/* @media (min-width: 425px){
+    #carousel .carousel-item{
+        height: fit-content;
+    }
+}
+
+@media (min-width: 576px){
+    #carousel .carousel-item{
+        height: fit-content;
+    }
+}
+
+@media (min-width: 768px){
+    #carousel .carousel-item{
+        height: fit-content;
+    }
+} */

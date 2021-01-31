@@ -5,7 +5,9 @@ class Principal extends CI_Controller{
 
     public function __construct(){
         parent::__construct();
+        $this->load->library('session');
         $this->load->library('phpmailer_lib');
+        $this->load->helper('url');
     }
 
     public function index(){
@@ -70,5 +72,28 @@ class Principal extends CI_Controller{
                 echo 'Message has been sent';
             }
         }
+    }
+    
+    public function comprar($id){
+        if($this->session->has_userdata('carrito')){
+            echo true;
+            $carrito = $this->session->carrito;
+            if(isset($carrito[$id])){
+                $carrito[$id]++;
+            }else{
+                $carrito[$id] = 1;
+            }
+        }else{
+            echo false;
+            $carrito = [];
+            $carrito[$id] = 1;
+        }
+        $this->session->set_userdata('carrito',$carrito);
+        redirect(site_url("Principal"));
+    }
+
+    public function destruir(){
+        $this->session->unset_userdata('carrito');
+        redirect(site_url("Principal"));
     }
 }

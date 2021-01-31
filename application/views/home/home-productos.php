@@ -12,7 +12,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/1" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/2" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/3" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/4" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/5" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title">Sneaker</h5>
                         <p class="card-text">este es un producto</p>
-                        <a href="" class="btn btn-primary">Comprar</a>
+                        <a href="/renshoes/Principal/comprar/6" class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             </div>
